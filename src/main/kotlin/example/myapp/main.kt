@@ -28,6 +28,15 @@ fun buildAquarium() {
    // println("Volume: ${aquarium6.width * aquarium6.length * aquarium6.height / 1000} l")
     aquarium6.volume = 70
     aquarium6.printSize()
+
+    val aquarium7 = Aquarium(length = 25, width = 25, height = 40)
+    aquarium7.printSize()
+
+    println()
+
+    val myTower = TowerTank(diameter = 25, height = 40)
+    myTower.printSize()
+
 }
 
 fun main() {
